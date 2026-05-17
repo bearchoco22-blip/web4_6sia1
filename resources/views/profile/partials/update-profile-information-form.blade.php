@@ -80,7 +80,7 @@
         <div class="flex items-center gap-4">
 
             {{-- link download id card --}}
-            <a class="text-white" href="{{ route('profile.id.card') }}" target="_blank">Unduh ID Card</a>
+            <a class="text-black" href="{{ route('profile.id.card') }}" target="_blank">Unduh ID Card</a>
 
             <x-primary-button>{{ __('Save') }}</x-primary-button>
 
